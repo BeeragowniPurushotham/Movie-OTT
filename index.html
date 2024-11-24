@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - OTT Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Movie OTT</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="login.html" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Movie OTT</h2>
+        <p>Explore our collection of top movies and TV shows, personalized just for you!</p>
+        
+        <section>
+            <h3>Featured Movies</h3>
+            <div class="movies">
+                <div class="movie-card">
+                    <img src="https://media.istockphoto.com/id/1699082313/photo/happy-new-2024-year-in-cinema-red-seats-2024-cinema-and-movie-season-concept.jpg?s=2048x2048&w=is&k=20&c=8H9VYU2MpNDue4FnfQF4KZYJxNZ4lBiz4cqWwGycEpU=" alt="Movie 1" height="300px",width="300px">
+                    <h3>Inception</h3>
+                    <p>Genre: Sci-Fi, Action</p>
+                    <button class="details-btn" onclick="showDetails('Inception')">Details</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.pixabay.com/photo/2022/04/17/20/44/film-noir-7138980_640.jpg" alt="Movie 2" height="300px",width="300px">
+                    <h3>The Dark Knight</h3>
+                    <p>Genre: Action, Thriller</p>
+                    <button class="details-btn" onclick="showDetails('The Dark Knight')">Details</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.pixabay.com/photo/2021/07/28/00/57/pyramids-6498038_640.jpg" alt="Movie 3"height="300px",width="300px">
+                    <h3>Interstellar</h3>
+                    <p>Genre: Sci-Fi, Drama</p>
+                    <button class="details-btn" onclick="showDetails('Interstellar')">Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Trending TV Shows</h3>
+            <div class="movies">
+                <div class="movie-card">
+                    <img src="https://cdn.pixabay.com/photo/2014/12/29/18/44/beach-583172_640.jpg" alt="Show 1"height="300px",width="300px">
+                    <h3>Stranger Things</h3>
+                    <p>Genre: Sci-Fi, Mystery</p>
+                    <button class="details-btn" onclick="showDetails('Stranger Things')">Details</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.pixabay.com/photo/2022/11/16/16/56/city-7596379_640.jpg" alt="Show 2" height="300px",width="300px">
+                    <h3>The Witcher</h3>
+                    <p>Genre: Fantasy, Adventure</p>
+                    <button class="details-btn" onclick="showDetails('The Witcher')">Details</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/29/18/10/ai-generated-8663386_640.png" alt="Show 3"height="300px",width="300px">
+                    <h3>Breaking Bad</h3>
+                    <p>Genre: Drama, Thriller</p>
+                    <button class="details-btn" onclick="showDetails('Breaking Bad')">Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
